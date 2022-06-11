@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Dancing+Script:wght@700&family=Dongle&family=Fira+Sans+Condensed&family=Merriweather+Sans:wght@300&family=Mochiy+Pop+P+One&family=Oswald&family=Poppins:wght@500&family=Raleway:wght@300&family=Roboto:wght@100&family=Rubik+Beastly&display=swap");
+
+::-webkit-scrollbar {
+  width: 0.65em;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(209, 207, 207);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(red, orange, rgb(244, 81, 81));
+  border-radius: 150vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 250px;
+  background: rgba(18, 107, 255, 255);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.HEADER-HEADING {
+  font-size: 40px;
+  font-family: "Poppins";
+  color: white;
+  margin-left: 50px;
+  padding-top: 15px;
+}
+
+.logo {
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  margin-top: 15px;
+}
+
+#links ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 20px;
+  padding-top: 15px;
+}
+
+#links ul li a {
+  transition: 0.8s;
+  transition-property: all;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#links ul li a:hover {
+  text-decoration: underline;
+}
+
+.headerHeading {
+  text-align: center;
+  font-family: "Poppins";
+  margin-top: 15px;
+  font-size: 75px;
+  color: black;
+}
+
+.headerHeading1 {
+  text-align: center;
+  font-family: "Poppins";
+  margin-top: 15px;
+  font-size: 75px;
+  color: black;
+}
+
+.headerHeading10 {
+  text-align: center;
+  font-family: "Poppins";
+  margin-top: 15px;
+  font-size: 45px;
+  color: black;
+  transition: 0.654s;
+}
+
+.headerHeading10:hover {
+  color: brown;
+}
+
+.flexContianer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.templateImg {
+  width: 450px;
+  height: 250px;
+  background-color: black;
+}
+
+.tempaltesButton {
+  margin-top: 15px;
+  margin-left: 32%;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: rgba(180, 120, 54, 255);
+  color: rgba(81, 86, 57, 255);
+  font-family: "Raleway";
+  font-weight: 600;
+  border-radius: 5px;
+  border: 3px solid rgba(81, 86, 57, 255);
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 15px;
+}
+
+.tempaltesButton:hover {
+  background: rgba(81, 86, 57, 255);
+  color: rgba(180, 120, 54, 255);
+  border: 3px solid rgba(180, 120, 54, 255);
+}
+
+.templateImg1 {
+  width: 450px;
+  height: 250px;
+  background-image: url(../static/templateONE.png);
+  background-size: 100% 100%;
+}
+
+.templateImg2 {
+  width: 450px;
+  height: 250px;
+  background-image: url(../static/templateMadeByMe1.png);
+  background-size: 100% 100%;
+}
+
+.templateImg3 {
+  width: 450px;
+  height: 250px;
+  background-image: url(../static/universityTemp1.png);
+  background-size: 100% 100%;
+}
+
+.templateImg4 {
+  width: 450px;
+  height: 250px;
+  background-image: url(../static/landing1.png);
+  background-size: 100% 100%;
+}
+
+.templateImg5 {
+  width: 450px;
+  height: 250px;
+  background-image: url(../static/microsoft\ store\ 1.png);
+  background-size: 100% 100%;
+}
+
+.templateImg6 {
+  width: 450px;
+  height: 250px;
+  background-image: url(../static/myCommerce1.png);
+  background-size: 100% 100%;
+}
+
+.templateImg7 {
+  width: 450px;
+  height: 250px;
+  background-image: url(../static/ratnadeeptemp1.png);
+  background-size: 100% 100%; 
+}
+
+.templateImg8 {
+  width: 450px;
+  height: 250px;
+  background-image: url(../static/cheveroletTemp.png);
+  background-size: 100% 100%;
+}
+
+.templateImg9 {
+  width: 450px;
+  height: 250px;
+  background-image: url(../static/indiaTemp.png);
+  background-size: 100% 100%;
+}
+
+#startTemplate1 {
+  display: none;
+}
+
+#startTemplate2 {
+  display: none;
+}
+
+#startTemplate3 {
+  display: none;
+}
+
+#startTemplate4 {
+  display: none;
+}
+
+#startTemplate5 {
+  display: none;
+}
+
+#startTemplate6 {
+  display: none;
+}
+
+#startTemplate7 {
+  display: none;
+}
+
+#startTemplate8 {
+  display: none;
+}
+
+#startTemplate9 {
+  display: none;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.templateIMG {
+  width: 1300px;
+  height: 650px;
+  margin-top: 25px;
+}
+
+.codehtml {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btnclass {
+  margin-top: 25px;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: rgb(255, 115, 28);
+  color: white;
+  font-family: "Poppins";
+  border-radius: 5px;
+  text-align: center;
+  border: 2px solid black;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btnclass:hover {
+  color: white;
+  border: 2px solid rgb(255, 115, 28);
+  background: black;
+}
